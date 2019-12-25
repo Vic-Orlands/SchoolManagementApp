@@ -1,0 +1,103 @@
+/* styling the body and header */
+body{
+    background-image: url('../images/student.png');
+    background-size: auto 100%;
+    font-family: Maiandra GD;
+    margin: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat
+}
+header{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(to bottom, rgba(165, 42, 42, 0.781), rgba(255, 166, 0, 0.788));
+    align-items: center;
+}
+hr{
+    color: white;
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+}
+h6{
+    font-size: 20px;
+    padding: 20px;
+}
+.me{
+    display: flex;
+    align-items: center;
+}
+
+/* Reshape the user icon */
+#male{
+    border-radius: 120px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+/* style the nav bar*/
+ul{
+    background-color:  rgba(255, 166, 0, 0.788);
+    align-items: center;
+    margin: 0px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 110px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#re{
+    float: right;
+}
+
+/* responsive view for screens with 692px */
+@media(max-width: 692px){
+    span{
+        display: none;
+    }
+    header{
+        margin: 0px -10px;
+    }
+    nav{
+        margin: 0px -10px;
+    }
+}
+
+/* responsive view for screens with 645px */
+@media(max-width: 645px){
+    #male{
+        border-radius: 60px;
+        width: 100px;
+        height: 100px;
+        padding: 10px
+    }
+    h1{
+        display: none;
+    }
+    ul li{
+        padding: 10px 80px;
+    }
+}
+
+/* responsive view for screens with 490px */
+@media(max-width: 490px){
+    ul li{
+        padding: 10px 40px;
+    }
+}
+
+/* responsive view for screens with 330px */
+@media(max-width: 330px){
+    ul li{
+        padding: 10px 20px;
+    }
+}

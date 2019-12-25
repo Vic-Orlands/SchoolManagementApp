@@ -1,0 +1,61 @@
+/* styling the body and header */
+body{
+    font-family: Maiandra GD;
+    background-color: white;
+}
+header{
+    color: brown;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 235, 205, 0.945);
+    align-items: center;
+}
+h2{
+    padding: 20px;
+    font-size: 40px;
+}
+.me{
+    display: flex;
+    align-items: center;
+}
+
+/* Reshape the user icon */
+#male{
+    border-radius: 120px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+/* Display the nav bar*/
+ul{
+    background-color: rgba(255, 235, 205, 0.945);
+    align-items: center;
+    margin: 0px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 70px;
+}
+a{
+    color: brown;
+    font-size: 20px;
+    text-decoration: none;
+}
+div{
+    margin: 10px;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    background-color: rgba(255, 235, 205, 0.945);
+    border-radius: 5px;
+}
+h3{
+    text-align: center;
+}
+

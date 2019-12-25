@@ -1,0 +1,175 @@
+/* styles the body at large*/
+body{
+    background-image: url('../images/student.png');
+    background-size: auto 100%;
+    font-family: Maiandra GD;
+    background-repeat: no   -repeat;
+    margin: 0
+}
+#sp{
+    display:block;
+}
+
+/* hides the dashboard on default */
+.clses{display:none;}
+
+.tchr{
+    display:none;
+}
+
+/* styles the header for the login page */
+.lgin nav{
+    /* display:none; */
+    font-size: 45px;
+    font-weight: 5px;
+    color: white;
+    background-color: #250001af;
+    text-align: center;
+}
+#hi{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    background: #250001a1;
+    align-items: center;
+}
+hr{
+    color: white;
+}
+.Tech{
+    width: 40%;
+    height: 180px;
+    background: #250001af;
+    border: 1px solid rgba(255, 255, 255, 0.712);
+    margin: 20px auto;
+    padding: 30px;
+    color: white;
+    flex: 1 1 0%;
+    border:none;
+}
+.Tech > p {
+    width:80%;
+    margin:20px auto;
+    display: flex;
+    flex-wrap: wrap
+}
+h1{
+    padding: 20px;
+    font-size: 40px;
+}
+h6{
+    font-size: 20px;
+    padding: 20px;
+}
+.me{
+    display: flex;
+    align-items: center;
+}
+.innocent{
+    width: 80%;
+    margin: auto;
+}
+.flux{
+    width: 100%;
+    height: 30px;
+    border: 1px solid white;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    color:#250001af;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+#btn:hover{
+    width: 125px;
+    background-color: brown;
+    color: white;
+}
+p{
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration-line: none;
+    color: cyan;
+}
+
+/* Reshape the user icon */
+#male{
+    border-radius: 120px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+#female{
+    display:none;
+    border-radius: 120px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+/* Display the nav bar*/
+ul{
+    background-color: #250001af;
+    align-items: center;
+    margin: 0px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 110px;
+}
+a{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+#re{
+    float: right;
+}
+
+/* responsive mobile view for screens with 700px */
+@media(max-width:700px){
+    header{
+        font-size: 35px;
+    }
+    .innocent{
+        width: 100%;
+    }
+    .Tech{
+        height: 200px;
+        width: 50%;
+    }
+    p{
+        /* flex-direction:      column; */
+        width: 150px;
+        height: 70px;
+        margin: auto;
+    }
+    #btn{
+        margin-left: 20px;
+    }
+}
+
+/* responsive mobile view for screens with 344px */
+@media(max-width:344px){
+    header{
+        font-size: 25px;
+    }
+    .innocent{
+        width: 100%;
+    }
+    .Tech{
+        height: 200px;
+        width: 60%;
+    }
+    p{
+        flex-wrap: wrap;
+    }
+}

@@ -1,0 +1,156 @@
+/*this code gives the  body some background properties*/
+body{background-image:url('../images/student.png');
+    background-size:auto 100%;
+    font-family: Maiandra GD;
+    margin: 0;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+/* this code styles the header section of the page */
+header{
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #25000191;
+}
+h1{
+    padding: 20px;
+    font-size: 50px;
+}
+h3{
+    font-size: 30px;
+    padding: 20px;
+}
+.me{
+    display: flex;
+    align-items: center;
+}
+
+/*this code makes the user icon circular*/
+#male{
+    border-radius: 120px;
+    width: 200px;
+    height: 200px;
+    padding: 20px;
+}
+
+ /*this code styles the nav bar and joins it smoothly with the header*/
+ul{
+    background-color: rgba(255, 158, 1, 0.555);;
+    align-items: center;
+    margin: 0px;
+}
+ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+}
+a{
+    color: #250001d8;
+    font-size: 20px;
+    text-decoration: none;
+}
+.float{
+    float: right;
+}
+.you{
+    margin: 10px;
+}
+
+/* this code styles the background for the list of teachers that have applied in the principal's dashbard */
+p{ 
+    background-color: #2500017a;
+    height:30px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+button{
+    background: linear-gradient( to bottom, rgba(165,42,42, 0.781), rgba(255,166,0,0.788));
+    border: 1px solid white;
+    color: white;
+    border-radius: 5px;
+}
+
+/* the following code styles the elements created in javascript*/
+.ss {
+    background-color: none;
+    justify-content: flex-start;
+    align-items: center;
+    height:20px;
+    color:white;
+    width:100%;
+}
+.sp{
+    list-style: none;
+    display:flex;
+    flex-direction: column;
+    width:100%;
+}.Bscreen{
+    width:95%;
+    flex-direction:column;
+}
+.screen{
+    background-color: orange;
+}
+
+/* mobile view for screens with 722px */
+@media(max-width: 722px){
+    header{
+        margin: 0px -10px;
+    }
+    nav{
+        margin: 0px -10px;
+    }
+    ul li{
+        padding: 10px ;
+    }
+}
+
+/* mobile view for screens with 645px */
+@media(max-width: 645px){
+    #male{
+        border-radius: 60px;
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    ul li{
+        padding: 10px;
+    }
+}
+
+/* mobile view for screens with 582px */
+@media(max-width: 582px){
+    ul li{
+        padding: 5px;
+    }
+    h1{
+        font-size: 25px;
+    }
+}
+
+/* mobile view for screens with 402px */
+@media(max-width: 402px){
+    ul li{
+        padding: 5px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
+/* mobile view for screens with 342px */
+@media(max-width: 342px){
+    a{
+        font-size: 15px;
+    }
+}

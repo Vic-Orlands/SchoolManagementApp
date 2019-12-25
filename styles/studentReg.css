@@ -1,0 +1,123 @@
+/* styles the body at large */
+body{
+    /* background: url('/images/student.png') no-repeat;
+    background-size: cover;
+    font-family: Maiandra GD; */
+
+    background-image: url('../images/student.png');
+    min-height: 100vh;
+    background-size: auto 100%;
+    font-family: Maiandra GD;
+    background-repeat  : no-repeat ;
+    margin: 0
+}
+
+/* styles the header*/
+header{
+    font-size: 45px;
+    font-weight: 5px;
+    text-align: center;
+    color: white;
+    background: #250001af;
+}
+hr{
+    color: white;
+}
+
+/* styles the form */
+.sign{
+    width: 40%;
+    height: 700px;
+    /* background: linear-gradient(to bottom, rgba(165, 42, 42, 0.781), rgba(255, 166, 0, 0.788)); */
+    background: #250001a1;
+    border: 1px solid rgba(255, 255, 255, 0.712);
+    margin: auto;
+    padding: 20px;
+    color: white;
+}
+.grind{
+    /* width: 70%; */
+    margin: auto;
+}
+.size{
+    width: 100%;
+    height: 25px;
+    border: 1px solid rgba(152, 251, 152, 0.288);
+}
+.click{
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+#btn{
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    border: 2px solid #250001;;
+    border-radius: 10px;
+    color: brown;
+    transition: 0.5s;
+    transition-timing-function: ease-out;
+}
+
+/* transition effect on hover of button */
+#btn:hover{
+    width: 120px;
+    background-color: brown;
+    color: white;
+}
+
+/* styles the second button created for the essence of responsiveness */
+.click1{
+    display: none;
+    width: 100px;
+    height: 30px;
+    margin: auto;
+}
+
+#write{
+    width: 70%;
+    height: 50px;
+}
+
+/* view for screens with 768px */
+@media(max-width:768px){
+    header{
+        font-size: 35px;
+    }
+    .sign{
+        height: 650px;
+        width: 60%
+    }
+    .size{
+        width: 100%;
+    }    
+    .click{
+        display: none;
+    }
+    .click1{
+        display: inherit;
+    }
+}
+
+/* view for screens with 425px */
+@media(max-width:425px){
+    header{
+        font-size: 25px;
+    }
+    .sign{
+        height:700px;
+        width: 80%;
+    }
+    .size{
+        width: 100%;
+        height: 25px;
+    }
+}
+
+/* view for screens with 387px */
+@media(max-width:387px){
+    span{
+        display: none;
+    }
+}
